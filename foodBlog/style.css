@@ -1,0 +1,165 @@
+/* ====== TYPOGRAPHY ======= */
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 18pt;
+    line-height: 18pt;
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+h1 {
+    font-size: 72pt;
+    line-height: 18pt;
+    font-family: 'Teko', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 18pt;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 18pt;
+}
+
+ul li {
+    font-size: 14pt;
+    line-height: 22pt;
+}
+
+footer {
+    font-style: oblique;
+    font-size: 10pt;
+    line-height: 18pt;
+    color: #cdcdcd;
+}
+
+
+
+/* ==== BACKGROUNDS ==== */
+
+header {
+    background-color: #000000;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+main {
+    background-color: #cdcdcd;
+}
+
+#container {
+    background-color: #cdcdcd;
+}
+
+#popUp {
+    background-color: #ff0000;
+}
+
+
+footer {
+    background-color: #000000;
+}
+
+#splash {
+    background-image: url("heading.jpg");
+    background-size: cover;
+}
+
+
+/* === BOX MODEL === */
+
+#splash {
+    height: 500px;
+}
+
+nav {
+    padding: 30px;
+}
+
+nav a {
+    padding: 20px;
+
+}
+
+footer {
+    padding: 55px;
+}
+
+#foodArticles {
+    padding: 20px;
+}
+
+aside {
+    margin-left: 35px;
+}
+
+/* === LAYOUT === */
+
+.floatLeft {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 30px;
+}
+
+body {
+    padding-top: 210px;
+}
+
+#popUp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 35%;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
