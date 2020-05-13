@@ -1,0 +1,98 @@
+/* === For your Responsive CSS === */
+
+img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    header {
+        grid-template-columns: 100%;
+    }
+
+    #nav a {
+        display: block;
+        background-color: orange;
+        text-align: center;
+        padding: 0.36rem;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    #splash {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        height: 10.7rem;
+    }
+
+    main {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+
+    #splash {
+        grid-column: 1/2;
+    }
+
+    #app {
+        grid-column: 1/2;
+    }
+
+
+    footer {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 0.54rem
+    }
+
+    #social-media {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:601px) {
+    #mobile-menu {
+        display: none;
+    }
+
+
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #4d4c4c;
+        color: white;
+    }
+
+    main {
+        background-color: #4d4c4c;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    #nav a:hover {
+        color: lightgrey;
+
+    }
+
+    #nav {
+        color: #b56441;
+    }
+
+    #legal {
+        color: #ffffff;
+    }
+
+    .fab {
+        color: #ffffff;
+    }
+}
