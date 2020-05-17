@@ -1,0 +1,123 @@
+/* === For your Responsive CSS === */
+
+img {
+    width: 100%;
+}
+
+/* === MOBILE === */
+
+@media screen and (max-width:480px) {
+    header {
+        grid-template-columns: 100%;
+    }
+
+    body {
+        grid-template-columns: 100%;
+    }
+
+    #logo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        display: block;
+    }
+
+    mobileMenu {
+        margin-right: 0px;
+        display: block;
+        width: 100%;
+    }
+
+    #nav1 a {
+        display: block;
+        background-color: orange;
+        text-align: center;
+        padding: 0.36rem;
+
+    }
+
+    /* === HOME ===*/
+
+    #splashHome {}
+
+
+
+    /* === ABOUT ===*/
+
+    #content {
+        grid-template-columns: 100%;
+    }
+
+
+
+
+    #content p {
+        display: block;
+
+    }
+
+    #content h2 {
+        display: block;
+    }
+
+    #profile {
+        display: block;
+    }
+
+
+
+
+
+
+    /* === MENU ===*/
+
+
+    menuColumns {
+        grid-template-columns: 100%;
+    }
+
+    #beverage,
+    #breakfast,
+    #sandwiches {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*=== FOOTER ===*/
+    footer {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 0.54rem
+    }
+
+    #nav2 a {
+        display: block;
+    }
+
+    #socialMedia {
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+/* === DESKTOP ===*/
+@media screen and (min-width: 481px) {
+    #mobileMenu i {
+        display: none;
+    }
+}
