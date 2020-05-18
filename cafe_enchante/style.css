@@ -20,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+
 /* HEADER */
 
 /* unvisited link */
@@ -46,7 +47,8 @@ header a:active {
     font-size: 1.20rem;
     font-variant-caps: all-small-caps;
     color: #494949;
-    margin-left: 7.14rem;
+    margin-left: 20%;
+    max-width: 80%;
 }
 
 
@@ -54,10 +56,6 @@ button {
     font-size: 1.64rem;
     font-variant-caps: all-small-caps;
     color: #494949;
-}
-
-.greynav {
-    color: red;
 }
 
 button {
@@ -74,6 +72,7 @@ h2 {
     color: #87413F;
 }
 
+
 h3 {
     font-size: 1.43rem;
     color: #87413F;
@@ -85,7 +84,7 @@ h3 {
     color: #494949;
 }
 
-#legal {
+.legal {
     color: #c2bfbf;
 }
 
@@ -108,6 +107,7 @@ h3 {
 #sandwiches a {
     color: #87413F;
 }
+
 
 /* FOOTER */
 
@@ -132,17 +132,17 @@ footer a:active {
 }
 
 #nav2 {
-    margin-top: 1rem
+    margin-top: 1rem;
 }
 
-#legal {
+.legal {
     margin-bottom: 0.28rem;
 }
 
 .fab {
     font-size: 1.43rem;
     margin-right: 0.36rem;
-    margin-top: 1rem
+    margin-top: 1rem;
 }
 
 form {
@@ -174,8 +174,6 @@ body {
     background-color: #ffffff;
 }
 
-
-
 footer {
     background-color: #494949;
 }
@@ -194,6 +192,7 @@ input {
 .cart {
     width: 1.61rem;
 }
+
 
 /* == box model == */
 
@@ -215,7 +214,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 button {
@@ -235,19 +233,11 @@ button {
 }
 
 #nav1 a {
-    margin-right: 6rem;
-
-
+    margin-right: 4rem;
 }
 
 header #nav1 {
     margin-top: 2.7rem;
-    ;
-}
-
-#logo {
-    display: flex;
-
 }
 
 #logo img {
@@ -262,7 +252,6 @@ button {
 footer {
     padding: 0.60rem;
     bottom: 0;
-
 }
 
 
@@ -302,14 +291,12 @@ header {
 #profile {
     float: right;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
+    margin-top: 2.68rem;
 }
 
 
 /* === FOOTER ===*/
+
 footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -352,7 +339,6 @@ footer {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-row-gap: 0.71rem;
-
 }
 
 #breakfast {
@@ -365,15 +351,14 @@ footer {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-row-gap: 0.71rem;
-
 }
+
 
 /*=== DETAILS===*/
 
 .circle {
     border-radius: 50%;
     width: 50%;
-
 }
 
 #content {
@@ -389,8 +374,4 @@ footer {
 #map {
     float: right;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
 }
