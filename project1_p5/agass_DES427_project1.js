@@ -40,28 +40,28 @@ let gunshot;
 function preload() {
 
     // BACKGROUNDS
-    emptyBg = loadImage('https://ashleygass.github.io/images/background.png');
+    emptyBg = loadImage('https://ashleygass.github.io/project1_p5/background.png');
 
-    bg = loadImage('https://ashleygass.github.io/images/backgroundHappy.png');
+    bg = loadImage('https://ashleygass.github.io/project1_p5/backgroundHappy.png');
 
     //SCARED CACTUSES
-    yellowScared = loadImage('https://ashleygass.github.io/images/yellow_scared.png');
+    yellowScared = loadImage('https://ashleygass.github.io/project1_p5/yellow_scared.png');
 
-    pinkScared = loadImage('https://ashleygass.github.io/images/palePink_scared.png');
+    pinkScared = loadImage('https://ashleygass.github.io/project1_p5/palePink_scared.png');
 
-    paleGreenScared = loadImage('https://ashleygass.github.io/images/paleGreen_scared.png');
+    paleGreenScared = loadImage('https://ashleygass.github.io/project1_p5/paleGreen_scared.png');
 
-    paleBrightGreenScared = loadImage('https://ashleygass.github.io/images/paleBrightGreen_scared.png');
+    paleBrightGreenScared = loadImage('https://ashleygass.github.io/project1_p5/paleBrightGreen_scared.png');
 
-    darkBrownScared = loadImage('https://ashleygass.github.io/images/darkBrown_scared.png');
+    darkBrownScared = loadImage('https://ashleygass.github.io/project1_p5/darkBrown_scared.png');
 
-    brightGreenScared = loadImage('https://ashleygass.github.io/images/brightGreen_scared.png');
+    brightGreenScared = loadImage('https://ashleygass.github.io/project1_p5/brightGreen_scared.png');
 
-    brightBrownScared = loadImage('https://ashleygass.github.io/images/brightBrown_scared.png');
+    brightBrownScared = loadImage('https://ashleygass.github.io/project1_p5/brightBrown_scared.png');
 
 
     // EXTRA IMAGES
-    gunshot = createAudio('https://ashleygass.github.io/images/gunshot.mp3');
+    gunshot = createAudio('https://ashleygass.github.io/project1_p5/gunshot.mp3');
 }
 
 function setup() {
